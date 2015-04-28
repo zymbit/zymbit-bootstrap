@@ -2,7 +2,7 @@
 
 [ "$USER" != "root" ] && echo "run this as root" && exit 1
 
-#apt-get update
+apt-get update
 
 # install system packages
 apt-get install -y collectd daemontools-run python-dev python-setuptools
