@@ -15,6 +15,8 @@ if [ "$pip_path" = "" ]; then
     pip install virtualenv
 fi;
 
+set -e
+
 
 # install zymbit in a virtualenv
 mkdir -p /opt/zymbit
